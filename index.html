@@ -1,53 +1,151 @@
-<!DOCTYPE html><html><head></head><body><div class="v1_2"><div class="v4_5"></div><div class="v4_6"></div><div class="v5_8"></div></div></body></html> <br/><br/> <style>* {
-  box-sizing: border-box;
-}
-body {
-  font-size: 14px;
-}
-.v1_2 {
-  width: 390px;
-  height: 844px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v4_5 {
-  width: 45px;
-  height: 46px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: center;
-  top: 377px;
-  left: 161px;
-  overflow: hidden;
-}
-.v4_6 {
-  width: 314px;
-  height: 393px;
-  background: url("Logo_base.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 30px;
-  left: 38px;
-  overflow: hidden;
-}
-.v5_8 {
-  width: 314px;
-  height: 393px;
-  background: url("Logo_base.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 423px;
-  left: 38px;
-  overflow: hidden;
-}
-</style>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Navarra Clothing</title>
+    <link rel="shortcut icon" href="Logo_base.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8CEVZN631"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M8CEVZN631');
+    </script>
+    
+    <style>
+      p{
+        font-family: Roboto, Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .newsletter{
+        display: inline-block;
+        border: none;
+        margin: 0;
+        width: 49%;
+      }
+
+      .img-newsletter{
+        height: 55px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 8px;
+      }
+
+      .title-newsletter{
+        font-family: Playfair Display;
+        font-size: 70px;
+        font-weight: 400;
+        margin-top: 200px;
+        margin-left: 165px;
+      }
+
+      .description-newsletter{
+        font-family: Montserrat;
+        font-size: 20px;
+        margin-left: 170px;
+        margin-bottom: 15px;
+      }
+
+      .input-newsletter{
+        background-color: rgb(224, 224, 224);
+        color: rgb(194, 194, 194);
+        border:none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        width: 290px;
+        font-family: Montserrat;
+        margin-left: 170px;
+      }
+      .input-newsletter:hover{
+        color: black;
+      }
+      .input-newsletter::content{
+        color: black;
+      }
+
+      .notify-newsletter{
+        font-family: Montserrat;
+        background-color: rgb(52, 52, 52);
+        color: white;
+        border:none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 2px;
+      }
+      .notify-newsletter:hover{
+        cursor: pointer;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: 0px;
+        transition: margin-left 0.15s, 
+        padding 0.3s;
+      }
+      .notify-newsletter:active{
+        background-color: rgb(77, 77, 77);
+      }
+
+      .cta-newsletter{
+        font-size: 12px;
+        color: lightgrey;
+        margin-left: 170px;
+        margin-top: 10px;
+      }
+
+      .hero-image-box{
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        background: url(hero_wit_logo.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        border: none;
+      }
+
+      .hero-image-box,
+      .newsletter{
+        height: 700px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="newsletter">
+      <img class="img-newsletter" src="LOGO2_Sans_Serif.webp">
+  
+      <p class="title-newsletter">Coming Soon</p>
+    
+      <p class="description-newsletter">
+        Follow us for update now
+      </p>
+    
+      <div>
+        <input class="input-newsletter" type="text" placeholder="Enter your email">
+        <button class="notify-newsletter"> NOTIFY ME</button>
+      </div>
+    
+      <p class="cta-newsletter">
+        Sign up to the newsletter to get early notifications of our launch date!
+      </p>
+    </div>
+
+    <div class="hero-image-box">
+      <p></p>
+    </div>
+  </body>
+</html>
